@@ -9,3 +9,5 @@ dependencies:
   - python-graphviz
   - pyarrow
   - ipywidgets
+  - matplotlib
+  - seaborn

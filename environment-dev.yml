@@ -7,7 +7,6 @@ dependencies:
   - bokeh
   - python-graphviz
   - pyarrow
-  - jupyter_contrib_nbextensions
   - rise
   - isort
   - notebook
@@ -15,6 +14,8 @@ dependencies:
   - jupyterlab
   - nodejs
   - dask_labextension
+  - matplotlib
+  - seaborn
 #    - xarray
 #   - jupyter-server-proxy
 

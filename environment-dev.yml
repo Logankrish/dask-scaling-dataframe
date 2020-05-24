@@ -1,7 +1,6 @@
 name: scale-df-dev
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.8.*
   - dask
@@ -13,8 +12,9 @@ dependencies:
   - isort
   - notebook
   - ipywidgets
-# - jupyterlab
+  - jupyterlab
+  - nodejs
+  - dask_labextension
 #    - xarray
 #   - jupyter-server-proxy
-#  - dask_labextension
-#  - nodejs
+

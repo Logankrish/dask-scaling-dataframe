@@ -53,7 +53,7 @@ Download the latest version of the course materials
 Alternatively, you may clone the course repository using `git`:
 
 ```
-$ git clone https://github.com/dgerlanc/dask-scaling-dataframe.git
+$ git clone --depth 1 https://github.com/dgerlanc/dask-scaling-dataframe.git
 ```
 
 The remainder of the installation requires that you use the command line.
@@ -65,22 +65,22 @@ dependencies specified in the `environment.yml` file in the repository:
 $ conda env create -f environment.yml
 ```
 
-This will create an `conda` environment called `scale-df` which may be
+This will create an `conda` environment called `dask-scaling-the-dataframe` which may be
 "activated" with the following commands:
 
-* Linux and Mac: `conda activate scale-df`
-* Windows: `activate scale-df`
+* Linux and Mac: `conda activate dask-scaling-the-dataframe`
+* Windows: `activate dask-scaling-the-dataframe`
 
 Once you've activated the environment your prompt will probably
 look something like this:
 
 ```
-(scale-df) $
+(dask-scaling-the-dataframe) $
 ```
 
 The entire course is designed to use `jupyter` notebooks. Start the
 notebook server to get started:
 
 ```
-(scale-df) $ jupyter lab
+(dask-scaling-the-dataframe) $ jupyter lab
 ```

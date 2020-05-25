@@ -1,4 +1,4 @@
-name: dask-scale
+name: dask-scaling-the-dataframe
 channels:
   - conda-forge
 dependencies:

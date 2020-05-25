@@ -62,7 +62,7 @@ To complete the course exercises, you must use `conda` to install the
 dependencies specified in the `environment.yml` file in the repository:
 
 ```
-$ conda env create -f binder/environment.yml
+$ conda env create -f environment.yml
 ```
 
 This will create an `conda` environment called `scale-df` which may be
@@ -82,5 +82,5 @@ The entire course is designed to use `jupyter` notebooks. Start the
 notebook server to get started:
 
 ```
-(scale-df) $ jupyter notebook
+(scale-df) $ jupyter lab
 ```

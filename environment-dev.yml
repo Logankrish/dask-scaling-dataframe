@@ -1,4 +1,4 @@
-name: scale-df-dev
+name: dask-scale
 channels:
   - conda-forge
 dependencies:
@@ -16,6 +16,3 @@ dependencies:
   - dask_labextension
   - matplotlib
   - seaborn
-#    - xarray
-#   - jupyter-server-proxy
-

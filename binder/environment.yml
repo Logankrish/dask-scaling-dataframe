@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.8.*
   - dask
-  - distributed
   - bokeh
   - python-graphviz
   - pyarrow

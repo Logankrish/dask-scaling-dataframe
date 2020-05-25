@@ -16,3 +16,4 @@ dependencies:
   - dask_labextension
   - matplotlib
   - seaborn
+  - snakeviz
